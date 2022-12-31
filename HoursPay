@@ -1,5 +1,11 @@
 # This first line is provided for you
 
-hours = float(input("Enter Hours:"))
-rate = float(input("Enter Rate:"))
-print("Pay:",hours*rate)
+hrs = input("Enter Hours: ")
+rps = input("Input Rates per hour: ")
+hours = float(hrs)
+ratesPerHour = float(rps)
+
+if hours<=40:
+    print(hours*ratesPerHour)
+else:
+    print((40*ratesPerHour)+(hours-40)*(1.5*ratesPerHour))
