@@ -12,7 +12,7 @@ while True:
     try:
         number = int(num)
     except:
-        print("The value",num,"is ignored.");
+        print("Invalid input");
         continue
     
     if i==0 :
@@ -20,7 +20,7 @@ while True:
         smallest = number
     i=i+1
     
-    print(number)
+    # print(number)
 
     if number>largest:
         largest = number
@@ -28,5 +28,5 @@ while True:
     if number<smallest:
         smallest = number
 
-print("Maximum", largest)
-print("Minimum", smallest)
+print("Maximum is", largest)
+print("Minimum is", smallest)

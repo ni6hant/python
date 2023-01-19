@@ -28,6 +28,8 @@ except:
     print("Please enter Rates Per Hour in Numerals only without commas");
     quit()
 
-print("Pay",computepay(hours,ratesPerHour));
+# print("Pay",computepay(hours,ratesPerHour));
+print("Hello","World");
+print("Hello"+"World");
 
 
