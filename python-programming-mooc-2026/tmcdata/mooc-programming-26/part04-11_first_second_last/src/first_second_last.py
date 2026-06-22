@@ -1,3 +1,30 @@
+# Model solution
+# def find_word(str, whatth):
+#     index = 0
+#     word = ""
+#     counter = 0
+#     while index < len(str):
+#     	if str[index] == " ":
+#     	    counter += 1
+#     	    if counter == whatth:
+#     	        break
+#     	    word = ""
+#     	else:
+#     	    word += str[index]
+#     	index += 1
+#     return word
+ 
+# def first_word(mjono):
+#     return find_word(mjono, 1)
+ 
+# def second_word(mjono):
+#     return find_word(mjono, 2)
+ 
+# def last_word(mjono):
+#     return find_word(mjono, 0)
+# # Write your solution here
+
+
 # Write your solution here
 def first_word(string):
     firstWord = ""
