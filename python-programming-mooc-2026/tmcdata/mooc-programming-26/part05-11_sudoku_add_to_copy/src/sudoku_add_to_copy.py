@@ -29,11 +29,9 @@ def print_sudoku(sudoku:list):
 
 
 def copy_and_add(sudoku:list, row_no:int, column_no:int, number:int):
-    copy_sudoku=[[]]*9
-    count=0
+    copy_sudoku=[]
     for row in sudoku:
-        copy_sudoku[count][:]=row
-        count+=1
+        copy_sudoku.append(row[:])
     copy_sudoku[row_no][column_no]=number
     return copy_sudoku
 
